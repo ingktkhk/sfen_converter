@@ -25,3 +25,6 @@ packed = bytes(sfen_converter.pack('lnsgkgsnl/1r5b1/ppppppppp/9/9/9/PPPPPPPPP/1B
 # packed sfen can be in bytes, in list of int, or in any iterable of int
 print(sfen_converter.unpack(packed))
 ```
+
+# License
+Public domain
