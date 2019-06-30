@@ -174,7 +174,7 @@ def unpack_compact_hands(hands):
                 if 1 < n:
                     yield str(n)
                 yield q
-                n, q = 0, None
+                n, q = 1, p
         if q:
             if 1 < n:
                 yield str(n)
